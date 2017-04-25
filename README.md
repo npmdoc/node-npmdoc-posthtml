@@ -1,4 +1,7 @@
-# api documentation for  [posthtml (v0.9.2)](https://github.com/posthtml/posthtml)  [![npm package](https://img.shields.io/npm/v/npmdoc-posthtml.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-posthtml) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-posthtml.svg)](https://travis-ci.org/npmdoc/node-npmdoc-posthtml)
+# npmdoc-posthtml
+
+#### basic api documentation for  [posthtml (v0.9.2)](https://github.com/posthtml/posthtml)  [![npm package](https://img.shields.io/npm/v/npmdoc-posthtml.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-posthtml) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-posthtml.svg)](https://travis-ci.org/npmdoc/node-npmdoc-posthtml)
+
 #### HTML/XML processor
 
 [![NPM](https://nodei.co/npm/posthtml.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/posthtml)
@@ -107,7 +110,8 @@
         "release:patch": "mversion patch",
         "test": "npm run lint && mocha -R dot && npm run cover"
     },
-    "version": "0.9.2"
+    "version": "0.9.2",
+    "bin": {}
 }
 ```
 
